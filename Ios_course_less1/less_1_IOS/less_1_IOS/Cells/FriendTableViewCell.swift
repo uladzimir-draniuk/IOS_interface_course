@@ -9,7 +9,7 @@ import UIKit
 
 class FriendTableViewCell: UITableViewCell {
 
-    @IBOutlet var friendImageView: UIImageView!
+    @IBOutlet var avatarView: AvatarView!
     
     @IBOutlet var friendName: UILabel!
     
@@ -20,7 +20,6 @@ class FriendTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
     
